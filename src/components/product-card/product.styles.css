@@ -1,0 +1,21 @@
+.product-card-container {
+  display: flex;
+  flex-direction: column;
+  height: 250px;
+  width: 90%;
+  margin: 30px;
+  align-items: center;
+  padding-bottom: 50px;
+}
+
+img {
+  width: 100%;
+  height: 95%;
+  object-fit: cover;
+  margin-bottom: 5px;
+}
+
+.add-to-cart-button:hover {
+  cursor: pointer;
+}
+

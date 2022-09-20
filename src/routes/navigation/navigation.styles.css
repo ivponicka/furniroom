@@ -1,0 +1,23 @@
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.navigation-right {
+  display: flex;
+  align-items: center;
+}
+
+.nav-link {
+  padding-right: 30px;
+}
+
+.logo {
+  height: 70px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}

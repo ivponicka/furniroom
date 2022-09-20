@@ -1,0 +1,14 @@
+.shopping-icon {
+  position: relative;
+  width: 45px;
+}
+
+.shopping-items-number {
+  position: absolute;
+  top: 53px;
+  right: 46px;
+}
+
+.cart-icon-container:hover {
+  cursor: pointer;
+}

@@ -1,0 +1,36 @@
+.dropdown-container {
+    position: absolute;
+    width: 280px;
+    height: 360px;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    border: 1px solid black;
+    background-color: white;
+    top: 90px;
+    right: 30px;
+    
+  
+}
+    .empty-message {
+      font-size: 18px;
+      margin: 0px auto;
+    }
+  
+    .cart-items {
+      height: 340px;
+      display: flex;
+      flex-direction: column;
+      overflow: scroll;
+    
+    }
+  
+    .dropdown-button {
+      margin-top: auto;
+      margin-right: auto;
+      margin-left: auto;
+
+    }
+    .dropdown-button:hover {
+        cursor: pointer;
+    }

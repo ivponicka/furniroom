@@ -1,0 +1,22 @@
+.sign-up-form {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.label {
+    position: relative;
+    top: 35px;
+    pointer-events: none;
+}
+
+focus ~ .form-input-label {
+    transition: 300ms ease all;
+    top: 1px;
+    pointer-events: none;
+}
+
+.shrinkLabel {
+    top: -14px;
+    font-size: 12px;
+}
